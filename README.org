@@ -1,3 +1,3 @@
 * speed emacs
-** After I got used to emacs , I found all the popular emacs configurations work slow on windows. Yet Windows is my main work platform, so I want to find a set of useful packages which is still fast on windows.
+** After I got used to emacs , I found all the popular emacs configurations work slow on Windows. Yet Windows is my main work platform, so I want to find a set of useful packages which is still fast on Windows.
 ** Package list:
