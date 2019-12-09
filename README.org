@@ -1,3 +1,11 @@
 * speed emacs
 ** After I got used to emacs , I found all the popular emacs configurations work slow on Windows. Yet Windows is my main work platform, so I want to find a set of useful packages which is still fast on Windows.
 ** Package list:
+*** emacs
+- This is not a package, but emacs itself.
+ I add this beacause there are still some configuration just for pure emacs.
+*** evil
+- This package is just make emacs act as vim.
+- key bindings
+C-u is ued for vim scroll up.
+
