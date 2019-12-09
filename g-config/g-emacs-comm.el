@@ -14,6 +14,10 @@
 (global-hl-line-mode 1)
 (setq auto-save-default nil)
 
+(when (eq system-type 'windows-nt)
+  (setq gc-cons-threshold (* 512 1024 1024))
+  (setq gc-cons-percentage 0.5)
+  (run-with-idle-timer 5 t #'garbage-collect))
 
 ;;
 (provide 'g-emacs-comm)
