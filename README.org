@@ -8,4 +8,6 @@
 - This package is just make emacs act as vim.
 - key bindings
 C-u is ued for vim scroll up.
+C-] jump to tag at point.
+C-o jump backword.
 
