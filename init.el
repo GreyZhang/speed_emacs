@@ -12,6 +12,7 @@
 (defvar my/packages '(
 		      evil
 		      smex
+		      evil-leader
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
