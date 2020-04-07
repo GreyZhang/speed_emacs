@@ -1,5 +1,9 @@
 * speed emacs
 ** After I got used to emacs , I found all the popular emacs configurations work slow on Windows. Yet Windows is my main work platform, so I want to find a set of useful packages which is still fast on Windows.
+** How to instll
+- 1. backup your .emacs.d
+- 2. git clone https://github.com/GreyZhang/speed_emacs ~/.emacs.d
+- 3. run you emacs and wait for installation  compelete.
 ** Package list:
 *** emacs
 - This is not a package, but emacs itself.
