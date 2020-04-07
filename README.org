@@ -4,6 +4,7 @@
 *** emacs
 - This is not a package, but emacs itself.
  I add this beacause there are still some configuration just for pure emacs.
+
  F5: the hot key for dired-jump
 
 *** evil
