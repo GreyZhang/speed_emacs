@@ -5,20 +5,26 @@
 - This is not a package, but emacs itself.
  I add this beacause there are still some configuration just for pure emacs.
 
- F5: the hot key for dired-jump
+ F5 -> the hot key for dired-jump
 
 *** evil
 - This package is just make emacs act as vim.
 - key bindings
-C-u is ued for vim scroll up.
+C-u -> ued for vim scroll up.
 
-C-] jump to tag at point.
+C-] -> jump to tag at point.
 
-C-o jump backword.
+C-o -> jump backword.
 
 *** smex
 - Smex is a M-x enhancement for Emacs. Built on top of Ido, it provides a convenient interface to your recently and most frequently used commands. And to all the other commands, too.
 - Refer to: https://github.com/nonsequitur/smex
 - key bindings
-M-x run smex
+M-x -> run smex
+
+*** evil-leader
+- This package support some function like the leader key in Vim.
+- Refer to: https://github.com/cofi/evil-leader
+- Key bindings
+,ff -> find file
 
