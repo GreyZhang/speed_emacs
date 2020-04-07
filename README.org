@@ -5,7 +5,7 @@
 - This is not a package, but emacs itself.
  I add this beacause there are still some configuration just for pure emacs.
 
- F5 -> the hot key for dired-jump
+F5 -> the hot key for dired-jump
 
 *** evil
 - This package is just make emacs act as vim.
@@ -25,6 +25,6 @@ M-x -> run smex
 *** evil-leader
 - This package support some function like the leader key in Vim.
 - Refer to: https://github.com/cofi/evil-leader
-- Key bindings
-,ff -> find file
-
+- Key bindings(input leader-key first, SPC is my leader-key)
+ff -> find file
+fj -> dired-jump
