@@ -19,5 +19,7 @@
   (setq gc-cons-percentage 0.5)
   (run-with-idle-timer 5 t #'garbage-collect))
 
+(global-set-key (kbd "<f5>") 'dired-jump)
+
 ;;
 (provide 'g-emacs-comm)
