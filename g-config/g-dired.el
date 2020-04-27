@@ -7,6 +7,6 @@
 ;; use this package provides various extra features for Dired mode
 (require 'dired-x)
 (setq dired-dwin-target 1)
-
+(global-set-key (kbd "<f5>") 'dired-jump)
 
 (provide 'g-dired)
