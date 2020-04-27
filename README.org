@@ -31,4 +31,5 @@ M-x -> run smex
 - Refer to: https://github.com/cofi/evil-leader
 - Key bindings(input leader-key first, SPC is my leader-key)
 ff -> find file
+
 fj -> dired-jump
