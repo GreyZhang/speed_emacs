@@ -6,6 +6,7 @@
 (require 'g-evil)
 (require 'g-smex)
 (require 'g-iedit)
+(require 'g-autopair)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)

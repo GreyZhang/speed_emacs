@@ -14,6 +14,7 @@
 		      smex
 		      evil-leader
 		      iedit
+		      autopair
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
