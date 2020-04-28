@@ -37,3 +37,7 @@ M-x -> run smex
 1. ff -> find file
 2. fj -> dired-jump
 3. fr -> recent opened files
+   
+*** autopaire
+Use autopair to finish some auto competion about brakets.
+
