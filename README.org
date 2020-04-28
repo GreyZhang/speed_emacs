@@ -30,6 +30,6 @@ M-x -> run smex
 - This package support some function like the leader key in Vim.
 - Refer to: https://github.com/cofi/evil-leader
 - Key bindings(input leader-key first, SPC is my leader-key)
-ff -> find file
-
-fj -> dired-jump
+1. ff -> find file
+2. fj -> dired-jump
+3. fr -> recent opened files

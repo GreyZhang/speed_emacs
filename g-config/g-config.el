@@ -5,6 +5,7 @@
 (require 'g-evil-leader)
 (require 'g-evil)
 (require 'g-smex)
+(require 'g-iedit)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)

@@ -13,6 +13,7 @@
 		      evil
 		      smex
 		      evil-leader
+		      iedit
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

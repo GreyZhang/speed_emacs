@@ -19,5 +19,11 @@
   (setq gc-cons-percentage 0.5)
   (run-with-idle-timer 5 t #'garbage-collect))
 
+;; recent open files process
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-item 100)
+
+
 ;;
 (provide 'g-emacs-comm)

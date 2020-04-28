@@ -6,5 +6,6 @@
 (evil-leader/set-key
   "ff" 'find-file
   "fj" 'dired-jump
+  "fr" 'recentf-open-files
 )
 (provide 'g-evil-leader)
