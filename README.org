@@ -26,6 +26,10 @@ C-o -> jump backword.
 - key bindings
 M-x -> run smex
 
+*** recentf mode
+- Use "SPC fr" hot key to invoke recent opend files.
+- After recent opened files list is opened, n/p can be used to navigate the list.
+
 *** evil-leader
 - This package support some function like the leader key in Vim.
 - Refer to: https://github.com/cofi/evil-leader
