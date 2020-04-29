@@ -41,3 +41,7 @@ M-x -> run smex
 *** autopaire
 Use autopair to finish some auto competion about brakets.
 
+*** which-key
+- This package can give us some indication for key bindings.
+- Refer to: https://github.com/justbur/emacs-which-key/tree/8b49ae978cceca65967f3544c236f32964ddbed0
+

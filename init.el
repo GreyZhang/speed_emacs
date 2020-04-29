@@ -15,6 +15,7 @@
 		      evil-leader
 		      iedit
 		      autopair
+		      which-key
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

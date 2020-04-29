@@ -7,6 +7,7 @@
 (require 'g-smex)
 (require 'g-iedit)
 (require 'g-autopair)
+(require 'g-which-key)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)
