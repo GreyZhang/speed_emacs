@@ -8,5 +8,6 @@
 (require 'dired-x)
 (setq dired-dwin-target 1)
 (global-set-key (kbd "<f5>") 'dired-jump)
+(add-hook 'dired-mode-hook 'auto-revert-mode)
 
 (provide 'g-dired)

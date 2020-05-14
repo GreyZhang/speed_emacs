@@ -9,7 +9,10 @@
 - This is not a package, but emacs itself.
  I add this beacause there are still some configuration just for pure emacs.
 
+*** dired-mode
 F5 -> the hot key for dired-jump
+
+Add revert function to dired-mode hook so the files displayed in dired buffer can be refreshed automatically.
 
 *** evil
 - This package is just make emacs act as vim.
@@ -37,11 +40,12 @@ M-x -> run smex
 1. ff -> find file
 2. fj -> dired-jump
 3. fr -> recent opened files
+4. <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
    
 *** autopaire
 Use autopair to finish some auto competion about brakets.
 
 *** which-key
 - This package can give us some indication for key bindings.
-- Refer to: https://github.com/justbur/emacs-which-key/tree/8b49ae978cceca65967f3544c236f32964ddbed0
+- Refer to: https://github.com/justbur/emacs-which-key
 
