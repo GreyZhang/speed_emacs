@@ -5,7 +5,6 @@
 (require 'g-evil-leader)
 (require 'g-evil)
 (require 'g-smex)
-(require 'g-iedit)
 (require 'g-autopair)
 (require 'g-which-key)
 
