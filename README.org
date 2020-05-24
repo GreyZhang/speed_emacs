@@ -50,3 +50,7 @@ Use autopair to finish some auto competion about brakets.
 - This package can give us some indication for key bindings.
 - Refer to: https://github.com/justbur/emacs-which-key
 
+*** company
+A good package which can help us auto complete anything.
+- Refer to: [[https://company-mode.github.io/][Company]]
+
