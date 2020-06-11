@@ -26,6 +26,9 @@
 
 ;; better support for chinese coding
 (set-buffer-file-coding-system 'utf-8)
+;; explicitly set the prefered coding systems to avoid annoying prompt
+;; from emacs (especially on Microsoft Windows)
+(prefer-coding-system 'utf-8)
 
 ;;
 (provide 'g-emacs-comm)

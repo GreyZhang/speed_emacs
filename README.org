@@ -9,6 +9,7 @@
 - This is not a package, but emacs itself.
  I add this beacause there are still some configuration just for pure emacs.
 - Better support for Chinese word format.
+- explicitly set the prefered coding systems to avoid annoying prompt from emacs (especially on Microsoft Windows).
 
 *** dired-mode
 F5 -> the hot key for dired-jump
