@@ -17,6 +17,7 @@
 		      autopair
 		      which-key
 		      company
+		      find-file-in-project
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -49,6 +50,9 @@
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(menu-bar-mode nil)
+ '(package-selected-packages
+   (quote
+    (find-file-in-project evil smex evil-leader iedit autopair which-key company)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

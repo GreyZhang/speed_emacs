@@ -43,6 +43,8 @@ M-x -> run smex
 2. fj -> dired-jump
 3. fr -> recent opened files
 4. <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
+5. pf -> find file in project
+6. jj -> jump to file at point(use find-file-in-project-at-point)
    
 *** autopaire
 Use autopair to finish some auto competion about brakets.
@@ -54,4 +56,7 @@ Use autopair to finish some auto competion about brakets.
 *** company
 A good package which can help us auto complete anything.
 - Refer to: [[https://company-mode.github.io/][Company]]
+
+*** find-file-in-project
+Project files management which can be used to replace some functions in projectile.
 
