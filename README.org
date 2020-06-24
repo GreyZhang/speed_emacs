@@ -60,6 +60,7 @@ A good package which can help us auto complete anything.
 
 *** find-file-in-project
 Project files management which can be used to replace some functions in projectile.
+- Refer to: [[https://github.com/technomancy/find-file-in-project][find-file-in-project]]
 
 *** counsel-etags
 Create tags and navigation management.
