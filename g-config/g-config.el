@@ -8,6 +8,7 @@
 (require 'g-autopair)
 (require 'g-which-key)
 (require 'g-company)
+(require 'g-find-file-in-project)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)

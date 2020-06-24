@@ -8,5 +8,7 @@
   "fj" 'dired-jump
   "fr" 'recentf-open-files
   "<SPC>" 'smex
+  "pf" 'find-file-in-project
+  "jj" 'find-file-in-project-at-point
 )
 (provide 'g-evil-leader)
