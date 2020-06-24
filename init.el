@@ -18,6 +18,7 @@
 		      which-key
 		      company
 		      find-file-in-project
+		      counsel-etags
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

@@ -45,6 +45,7 @@ M-x -> run smex
 4. <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
 5. pf -> find file in project
 6. jj -> jump to file at point(use find-file-in-project-at-point)
+7. pg -> jump to tag defination.
    
 *** autopaire
 Use autopair to finish some auto competion about brakets.
@@ -60,3 +61,6 @@ A good package which can help us auto complete anything.
 *** find-file-in-project
 Project files management which can be used to replace some functions in projectile.
 
+*** counsel-etags
+Create tags and navigation management.
+- Refer to: [[https://github.com/redguardtoo/counsel-etags][counsel-etags]]

@@ -10,6 +10,7 @@
 (require 'g-company)
 (require 'g-find-file-in-project)
 (require 'g-c-mode)
+(require 'g-counsel-etags)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)

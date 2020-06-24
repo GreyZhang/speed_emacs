@@ -1,0 +1,2 @@
+
+(provide 'g-counsel-etags)

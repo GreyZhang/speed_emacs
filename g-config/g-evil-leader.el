@@ -10,5 +10,6 @@
   "<SPC>" 'smex
   "pf" 'find-file-in-project
   "jj" 'find-file-in-project-at-point
+  "pg" 'counsel-etags-find-tag-at-point
 )
 (provide 'g-evil-leader)
