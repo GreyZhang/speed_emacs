@@ -9,6 +9,7 @@
 (require 'g-which-key)
 (require 'g-company)
 (require 'g-find-file-in-project)
+(require 'g-c-mode)
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)
