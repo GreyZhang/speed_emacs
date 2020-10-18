@@ -1,4 +1,6 @@
-; The following configurations is copied from spacemacs-rocks from zilongshanren.
+;; Try to solve the installation problems on Linux
+(setq package-check-signature 'allow-unsigned)
+
 (when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
