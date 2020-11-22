@@ -46,6 +46,7 @@ M-x -> run smex
 5. pf -> find file in project
 6. jj -> jump to file at point(use find-file-in-project-at-point)
 7. pg -> jump to tag defination.
+8. ssg -> search files with ag.
    
 *** autopaire
 Use autopair to finish some auto competion about brakets.
