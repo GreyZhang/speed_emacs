@@ -11,6 +11,7 @@
   "pf" 'find-file-in-project
   "jj" 'find-file-in-project-at-point
   "pg" 'counsel-etags-find-tag-at-point
-  "ssg" 'counsel-ag
+  "ca" 'counsel-ag
+  "it" 'org-insert-structure-template
 )
 (provide 'g-evil-leader)

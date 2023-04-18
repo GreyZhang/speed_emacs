@@ -39,14 +39,15 @@ M-x -> run smex
 - This package support some function like the leader key in Vim.
 - Refer to: [[https://github.com/cofi/evil-leader][evil-leader]]
 - Key bindings(input leader-key first, SPC is my leader-key)
-1. ff -> find file
-2. fj -> dired-jump
-3. fr -> recent opened files
-4. <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
-5. pf -> find file in project
-6. jj -> jump to file at point(use find-file-in-project-at-point)
-7. pg -> jump to tag defination.
-8. ssg -> search files with ag.
+- ff -> find file
+- fj -> dired-jump
+- fr -> recent opened files
+- <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
+- pf -> find file in project
+- jj -> jump to file at point(use find-file-in-project-at-point)
+- pg -> jump to tag defination.
+- ca -> search files with ag.
+- it -> insert org-mode structure template
    
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
