@@ -4,8 +4,9 @@
 (when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
-     (setq package-archives '(("gnu"   . "http://mirrors.163.com/elpa/gnu/")
-                      ("melpa" . "http://mirrors.163.com/elpa/melpa/"))))
+     (setq package-archives '(("gnu"    . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
+                         ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
 
  ;; cl - Common Lisp Extension
  (require 'cl)
@@ -16,7 +17,6 @@
 		      smex
 		      evil-leader
 		      iedit
-		      autopair
 		      which-key
 		      company
 		      find-file-in-project
@@ -63,4 +63,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Courier New" :foundry "outline" :slant normal :weight normal :height 158 :width normal)))))
+ '(default ((t (:family "Source Code Pro" :foundry "outline" :slant normal :weight normal :height 158 :width normal)))))

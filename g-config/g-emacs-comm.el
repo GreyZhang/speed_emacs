@@ -30,5 +30,13 @@
 ;; from emacs (especially on Microsoft Windows)
 (prefer-coding-system 'utf-8)
 
+;; make electric-pair-mode work on more brackets
+(setq electric-pair-pairs
+	'(
+	  (?\" . ?\")
+	  (?\{ . ?\})))
+;; auto close bracket insertion. New in emacs 24
+(electric-pair-mode 1)
+
 ;;
 (provide 'g-emacs-comm)
