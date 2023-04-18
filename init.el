@@ -13,14 +13,15 @@
 
  ;; Add Packages
 (defvar my/packages '(
-		      evil
-		      smex
-		      evil-leader
-		      iedit
-		      which-key
-		      company
-		      find-file-in-project
-		      counsel-etags
+              evil
+              smex
+              evil-leader
+              iedit
+              which-key
+              company
+              find-file-in-project
+              counsel-etags
+              org-pomodoro
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

@@ -48,7 +48,6 @@ M-x -> run smex
 - pg -> jump to tag defination.
 - ca -> search files with ag.
 - it -> insert org-mode structure template
-   
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 
@@ -67,3 +66,6 @@ Project files management which can be used to replace some functions in projecti
 *** counsel-etags
 Create tags and navigation management.
 - Refer to: [[https://github.com/redguardtoo/counsel-etags][counsel-etags]]
+*** org-pomodoro
+A package used for Tomato working method (tomato clock time management)
+- Refer to: [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]]
