@@ -22,6 +22,7 @@
               find-file-in-project
               counsel-etags
               org-pomodoro
+	      restart-emacs
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -54,6 +55,10 @@
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(menu-bar-mode nil)
+ '(org-archive-location "%s_2023_05_archive::")
+ '(org-pomodoro-length 10)
+ '(org-pomodoro-long-break-length 5)
+ '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
    (quote
     (find-file-in-project evil smex evil-leader iedit autopair which-key company)))
@@ -64,4 +69,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Source Code Pro" :foundry "outline" :slant normal :weight normal :height 158 :width normal)))))
+ '(default ((t (:family "Source Code Pro")))))
