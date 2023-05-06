@@ -47,7 +47,8 @@ M-x -> run smex
 - jj -> jump to file at point(use find-file-in-project-at-point)
 - pg -> jump to tag defination.
 - ca -> search files with ag.
-- it -> insert org-mode structure template
+- oit -> insert org-mode structure template
+- oas -> org-archive-subtree
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 
@@ -69,3 +70,7 @@ Create tags and navigation management.
 *** org-pomodoro
 A package used for Tomato working method (tomato clock time management)
 - Refer to: [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]]
+
+*** org-mode
+org-startup-truncated is set as nil by default.
+
