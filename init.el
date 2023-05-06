@@ -23,6 +23,7 @@
               counsel-etags
               org-pomodoro
 	      restart-emacs
+	      sound-wav
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
