@@ -12,6 +12,7 @@
   "jj" 'find-file-in-project-at-point
   "pg" 'counsel-etags-find-tag-at-point
   "ca" 'counsel-ag
-  "it" 'org-insert-structure-template
+  "oit" 'org-insert-structure-template
+  "oas" 'org-archive-subtree
 )
 (provide 'g-evil-leader)
