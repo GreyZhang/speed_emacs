@@ -12,5 +12,5 @@
 (require 'g-counsel-etags)
 (require 'g-org)
 
-(setq initial-scratch-message "Happy hacking and Grey ♥ you!")
+(setq initial-scratch-message "Happy hacking and emacs ♥ you!")
 (provide 'g-config)
