@@ -11,7 +11,7 @@
   "pf" 'find-file-in-project
   "jj" 'find-file-in-project-at-point
   "pg" 'counsel-etags-find-tag-at-point
-  "ca" 'counsel-ag
+  "sca" 'counsel-ag
   "oit" 'org-insert-structure-template
   "oas" 'org-archive-subtree
   "ss" 'swiper
