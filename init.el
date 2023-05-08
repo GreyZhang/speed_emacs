@@ -50,19 +50,22 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
  '(company-backends
-   (quote
-    ((company-dabbrev-code company-gtags company-etags company-keywords company-clang))))
+   '((company-dabbrev-code company-gtags company-etags company-keywords company-clang)))
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
+ '(custom-enabled-themes '(wheatgrass))
  '(menu-bar-mode nil)
  '(org-archive-location "%s_2023_05_archive::")
  '(org-pomodoro-length 10)
  '(org-pomodoro-long-break-length 5)
  '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
-   (quote
-    (find-file-in-project evil smex evil-leader iedit autopair which-key company)))
+   '(find-file-in-project evil smex evil-leader iedit autopair which-key company))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
@@ -70,4 +73,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Source Code Pro")))))
+ '(default ((t (:family "Source Code Pro" :foundry "outline" :slant normal :weight normal :height 130 :width normal)))))
