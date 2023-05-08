@@ -4,7 +4,7 @@
 (evil-leader/set-leader "<SPC>")
 
 (evil-leader/set-key
-  "ff" 'find-file
+  "ff" 'counsel-find-file
   "fj" 'dired-jump
   "fr" 'recentf-open-files
   "<SPC>" 'counsel-M-x
