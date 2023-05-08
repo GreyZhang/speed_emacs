@@ -6,7 +6,7 @@
 (evil-leader/set-key
   "ff" 'counsel-find-file
   "fj" 'dired-jump
-  "fr" 'recentf-open-files
+  "fr" 'counsel-recentf
   "<SPC>" 'counsel-M-x
   "pf" 'find-file-in-project
   "jj" 'find-file-in-project-at-point
