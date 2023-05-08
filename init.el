@@ -14,7 +14,6 @@
  ;; Add Packages
 (defvar my/packages '(
               evil
-              smex
               evil-leader
               iedit
               which-key

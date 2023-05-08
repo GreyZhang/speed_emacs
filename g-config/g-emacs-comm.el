@@ -1,3 +1,7 @@
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8-unix)
+(set-terminal-coding-system 'utf-8-unix)
+
 (setq make-backup-files nil)
 (setq visible-bell 0)
 (setq inhibit-startup-screen t)
@@ -38,5 +42,14 @@
 ;; auto close bracket insertion. New in emacs 24
 (electric-pair-mode 1)
 
+(defun xah-save-all-unsaved ()
+  "Save all unsaved files. no ask.
+Version 2019-11-05"
+  (interactive)
+  (save-some-buffers t ))
+
+(if (version< emacs-version "27")
+    (add-hook 'focus-out-hook 'xah-save-all-unsaved)
+  (setq after-focus-change-function 'xah-save-all-unsaved))
 ;;
 (provide 'g-emacs-comm)
