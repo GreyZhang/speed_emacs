@@ -7,7 +7,7 @@
   "ff" 'find-file
   "fj" 'dired-jump
   "fr" 'recentf-open-files
-  "<SPC>" 'smex
+  "<SPC>" 'counsel-M-x
   "pf" 'find-file-in-project
   "jj" 'find-file-in-project-at-point
   "pg" 'counsel-etags-find-tag-at-point

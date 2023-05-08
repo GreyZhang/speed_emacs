@@ -4,7 +4,7 @@
 ;; in initial buffers (*scratch*, *Messages*, …).
 (require 'g-evil-leader)
 (require 'g-evil)
-(require 'g-smex)
+(require 'g-counsel)
 (require 'g-which-key)
 (require 'g-company)
 (require 'g-find-file-in-project)

@@ -25,11 +25,11 @@ C-] -> jump to tag at point.
 
 C-o -> jump backword.
 
-*** smex
-- Smex is a M-x enhancement for Emacs. Built on top of Ido, it provides a convenient interface to your recently and most frequently used commands. And to all the other commands, too.
-- Refer to: [[https://github.com/nonsequitur/smex][smex]]
-- key bindings
-M-x -> run smex
+*** -smex-
+- +Smex is a M-x enhancement for Emacs. Built on top of Ido, it provides a convenient interface to your recently and most frequently used commands. And to all the other commands, too.+
+- +Refer to: [[https://github.com/nonsequitur/smex][smex]]+
+- +key bindings+
++M-x -> run smex+
 
 *** recentf mode
 - Use "SPC fr" hot key to invoke recent opend files.
@@ -42,7 +42,7 @@ M-x -> run smex
 - ff -> find file
 - fj -> dired-jump
 - fr -> recent opened files
-- <SPC> -> smex  ;; this can be used to replace M-x which is just like spacemacs.
+- <SPC> -> sounsel-M-x  ;; this can be used to replace M-x which is just like spacemacs.
 - pf -> find file in project
 - jj -> jump to file at point(use find-file-in-project-at-point)
 - pg -> jump to tag defination.
@@ -64,9 +64,13 @@ A good package which can help us auto complete anything.
 Project files management which can be used to replace some functions in projectile.
 - Refer to: [[https://github.com/technomancy/find-file-in-project][find-file-in-project]]
 
+*** counsel
+This package is the base of counsel-etags, also provide some more enhancement. The new function for M-x is used counsel-M-x of this package instead.
+
 *** counsel-etags
 Create tags and navigation management.
 - Refer to: [[https://github.com/redguardtoo/counsel-etags][counsel-etags]]
+
 *** org-pomodoro
 A package used for Tomato working method (tomato clock time management)
 - Refer to: [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]]
