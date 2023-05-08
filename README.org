@@ -49,6 +49,7 @@ C-o -> jump backword.
 - ca -> search files with ag.
 - oit -> insert org-mode structure template
 - oas -> org-archive-subtree
+- ss -> swiper ;; same as sapcemacs
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 

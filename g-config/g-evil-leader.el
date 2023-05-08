@@ -14,5 +14,6 @@
   "ca" 'counsel-ag
   "oit" 'org-insert-structure-template
   "oas" 'org-archive-subtree
+  "ss" 'swiper
 )
 (provide 'g-evil-leader)
