@@ -23,6 +23,7 @@
               org-pomodoro
 	      restart-emacs
 	      sound-wav
+	      benchmark-init
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -64,7 +65,7 @@
  '(org-pomodoro-long-break-length 5)
  '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
-   '(find-file-in-project evil smex evil-leader iedit autopair which-key company))
+   '(find-file-in-project evil evil-leader iedit autopair which-key company))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

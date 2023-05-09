@@ -4,6 +4,7 @@
 ;; in initial buffers (*scratch*, *Messages*, …).
 (require 'g-evil-leader)
 (require 'g-evil)
+(require 'g-ivy)
 (require 'g-counsel)
 (require 'g-which-key)
 (require 'g-company)
