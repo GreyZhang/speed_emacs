@@ -14,7 +14,7 @@
       (if (display-graphic-p)
           '((tool-bar-lines . 0)
             (background-color . "honeydew")
-            (width . 80)
+            (width . 130)
             (height . 35))
         '((tool-bar-lines . 0))))
 

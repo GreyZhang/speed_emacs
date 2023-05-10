@@ -15,5 +15,6 @@
   "oit" 'org-insert-structure-template
   "oas" 'org-archive-subtree
   "ss" 'swiper
+  "xdw" 'delete-trailing-whitespace
 )
 (provide 'g-evil-leader)

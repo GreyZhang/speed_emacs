@@ -50,6 +50,7 @@ C-o -> jump backword.
 - oit -> insert org-mode structure template
 - oas -> org-archive-subtree
 - ss -> swiper ;; same as sapcemacs
+- xdw -> delete-trailing-whitespace
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 
