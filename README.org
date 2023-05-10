@@ -44,7 +44,8 @@ C-o -> jump backword.
 - fr -> recent opened files
 - <SPC> -> sounsel-M-x  ;; this can be used to replace M-x which is just like spacemacs.
 - pf -> find file in project
-- jj -> jump to file at point(use find-file-in-project-at-point)
+- jj -> evil-avy-goto-char
+- jJ -> evil-avy-goto-char-2
 - pg -> jump to tag defination.
 - ca -> search files with ag.
 - oit -> insert org-mode structure template

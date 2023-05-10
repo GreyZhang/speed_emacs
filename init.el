@@ -24,6 +24,7 @@
 	      restart-emacs
 	      sound-wav
 	      benchmark-init
+	      avy
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
