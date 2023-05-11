@@ -25,6 +25,7 @@
 	      sound-wav
 	      benchmark-init
 	      avy
+	      hungry-delete
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

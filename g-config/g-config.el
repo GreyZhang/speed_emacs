@@ -12,6 +12,7 @@
 (require 'g-c-mode)
 (require 'g-counsel-etags)
 (require 'g-org)
+(require 'g-hungry-delete)
 
 (setq initial-scratch-message "Happy hacking and emacs ♥ you!")
 (provide 'g-config)
