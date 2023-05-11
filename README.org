@@ -81,3 +81,8 @@ A package used for Tomato working method (tomato clock time management)
 *** org-mode
 org-startup-truncated is set as nil by default.
 
+*** hungry-delete
+A package used to delet a whitespace character will delete all whitespace until the next non-whitespace character.
+- Refer to: [[https://github.com/nflath/hungry-delete][hungry-delete]]
+
+This function is enabled by default, can be disabled by comment out g-hungry-delete in g-config.el.
