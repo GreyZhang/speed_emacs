@@ -26,6 +26,9 @@
 	      benchmark-init
 	      avy
 	      hungry-delete
+	      irony
+	      company-irony
+	      company-irony-c-headers
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -56,8 +59,6 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(company-backends
-   '((company-dabbrev-code company-gtags company-etags company-keywords company-clang)))
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(menu-bar-mode nil)
@@ -66,7 +67,7 @@
  '(org-pomodoro-long-break-length 5)
  '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
-   '(find-file-in-project evil evil-leader iedit autopair which-key company))
+   '(company-irony-c-headers find-file-in-project evil evil-leader iedit autopair which-key company))
  '(show-paren-mode t)
  '(show-trailing-whitespace t)
  '(tool-bar-mode nil))

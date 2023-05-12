@@ -87,3 +87,14 @@ A package used to delet a whitespace character will delete all whitespace until 
 - Refer to: [[https://github.com/nflath/hungry-delete][hungry-delete]]
 
 This function is enabled by default, can be disabled by comment out g-hungry-delete in g-config.el.
+
+*** irony/company-irony/company-irony-c-headers
+    Use these packages to enhance c language development experience.
+
+    Refer to:
+
+    [[https://github.com/Sarcasm/irony-mode][irony-mode]]
+
+    [[https://github.com/Sarcasm/company-irony][company-irony]]
+
+    [[https://github.com/randomphrase/company-c-headers][company-c-headers]]
