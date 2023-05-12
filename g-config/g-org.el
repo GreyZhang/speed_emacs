@@ -2,7 +2,12 @@
 (setq org-startup-truncated nil)
 
 ;; configurations for babel
-(org-babel-do-load-languages
-      'org-babel-load-languages
-      '((python . t)))
+;; only use when you want to use code evaluation.
+;; (org-babel-do-load-languages
+;;       'org-babel-load-languages
+;;       '((python . t)
+;; 	(emacs-lisp . t)
+;; 	(perl . t)
+;; 	(C . t)
+;; 	(scheme . t)))
 (provide 'g-org)

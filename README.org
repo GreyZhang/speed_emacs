@@ -52,6 +52,7 @@ C-o -> jump backword.
 - oas -> org-archive-subtree
 - ss -> swiper ;; same as sapcemacs
 - xdw -> delete-trailing-whitespace
+- cl -> toggle function for comment-line
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 

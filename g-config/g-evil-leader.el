@@ -18,5 +18,6 @@
   "oas" 'org-archive-subtree
   "ss" 'swiper
   "xdw" 'delete-trailing-whitespace
+  "cl" 'comment-line
 )
 (provide 'g-evil-leader)
