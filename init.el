@@ -13,22 +13,23 @@
 
  ;; Add Packages
 (defvar my/packages '(
-              evil
-              evil-leader
-              iedit
-              which-key
-              company
-              find-file-in-project
-              counsel-etags
-              org-pomodoro
-	      restart-emacs
-	      sound-wav
-	      benchmark-init
-	      avy
-	      hungry-delete
-	      irony
-	      company-irony
-	      company-irony-c-headers
+		      use-package
+		      evil
+		      evil-leader
+		      iedit
+		      which-key
+		      company
+		      find-file-in-project
+		      counsel-etags
+		      org-pomodoro
+		      restart-emacs
+		      sound-wav
+		      benchmark-init
+		      avy
+		      hungry-delete
+		      irony
+		      company-irony
+		      company-irony-c-headers
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
