@@ -6,9 +6,9 @@
 ;; ssss---------------------------------------------------
 
 ;; UTF-8 as default encoding
-(set-language-environment "UTF-8")
-(set-default-coding-systems 'utf-8-unix)
-(set-terminal-coding-system 'utf-8-unix)
+;; (set-language-environment "UTF-8")
+;; (set-default-coding-systems 'utf-8-unix)
+;; (set-terminal-coding-system 'utf-8-unix)
 
 (setq default-frame-alist
       (if (display-graphic-p)
@@ -42,7 +42,7 @@
 ;; recent open files process
 (require 'recentf)
 (recentf-mode 1)
-(setq recentf-max-menu-item 100)
+(setq recentf-max-menu-item 500)
 
 ;; better support for chinese coding
 (set-buffer-file-coding-system 'utf-8)

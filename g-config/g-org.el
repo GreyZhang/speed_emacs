@@ -1,7 +1,7 @@
 (use-package org-bullets
-:ensure t
-:config
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
 (global-set-key (kbd "<f2>") 'org-pomodoro)
 (setq org-startup-truncated nil)
