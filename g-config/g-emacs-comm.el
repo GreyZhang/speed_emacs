@@ -14,8 +14,8 @@
       (if (display-graphic-p)
           '((tool-bar-lines . 0)
             (background-color . "honeydew")
-            (width . 130)
-            (height . 35))
+            (width . 150)
+            (height . 45))
         '((tool-bar-lines . 0))))
 
 (setq make-backup-files nil)
