@@ -64,11 +64,12 @@
  '(company-minimum-prefix-length 1)
  '(menu-bar-mode nil)
  '(org-archive-location "%s_2023_05_archive::")
+ '(org-download-backend "wget \"%s\" -O \"%s\"")
  '(org-pomodoro-length 10)
  '(org-pomodoro-long-break-length 5)
  '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
-   '(company-irony-c-headers find-file-in-project evil evil-leader iedit autopair which-key company))
+   '(org-present company-irony-c-headers find-file-in-project evil evil-leader iedit autopair which-key company))
  '(show-paren-mode t)
  '(show-trailing-whitespace t)
  '(tool-bar-mode nil))

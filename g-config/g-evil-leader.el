@@ -16,6 +16,7 @@
   "sca" 'counsel-ag
   "oit" 'org-insert-structure-template
   "oas" 'org-archive-subtree
+  "ods" 'org-download-screenshot
   "ss" 'swiper
   "xdw" 'delete-trailing-whitespace
   "cl" 'comment-line
