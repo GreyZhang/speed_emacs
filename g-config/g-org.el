@@ -24,6 +24,7 @@
                  (org-present-read-write))))))
 
 (global-set-key (kbd "<f2>") 'org-pomodoro)
+(global-set-key (kbd "<f8>") 'org-download-clipboard)
 
 ;; this setting can help us to read long line more easily.
 (setq org-startup-truncated nil)
