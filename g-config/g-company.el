@@ -3,6 +3,7 @@
 (add-hook 'c-mode-hook 'company-mode)
 (add-hook 'emacs-lisp-mode-hook 'company-mode)
 ;; configurations for eshell
-(add-hook 'eshell-mode 'company-mode)
+(add-hook 'eshell-mode-hook 'company-mode)
+(add-hook 'org-mode-hook 'company-mode)
 
 (provide 'g-company)
