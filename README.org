@@ -77,6 +77,8 @@ Create tags and navigation management.
 
 *** org-pomodoro
 A package used for Tomato working method (tomato clock time management)
+**** key bouding
+F2 for a org-clock to start.
 - Refer to: [[https://github.com/marcinkoziej/org-pomodoro][org-pomodoro]]
 
 *** org-mode
@@ -98,3 +100,11 @@ This function is enabled by default, can be disabled by comment out g-hungry-del
     [[https://github.com/Sarcasm/company-irony][company-irony]]
 
     [[https://github.com/randomphrase/company-c-headers][company-c-headers]]
+
+*** org-download
+This package can help us to write a document includes pictures inserted with org-mode more prodcutively.
+**** key boundings
+F8 for org-download-clipboard
+
+Refer to : [[https://github.com/abo-abo/org-download][org-download]]
+
