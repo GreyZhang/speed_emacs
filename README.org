@@ -31,6 +31,13 @@ C-o -> jump backword.
 - +key bindings+
 +M-x -> run smex+
 
+*** amx
+    Amx can provide same functions like smex, yet it is a package which is still alive.
+
+    Amx or smex should be installed because it can be the engine of counsel-M-x.
+
+    - Refer to: [[https://github.com/DarwinAwardWinner/amx][Amx]]
+
 *** recentf mode
 - Use "SPC fr" hot key to invoke recent opend files.
 - After recent opened files list is opened, n/p can be used to navigate the list.
