@@ -14,6 +14,7 @@
  ;; Add Packages
 (defvar my/packages '(
 		      use-package
+		      quelpa
 		      evil
 		      evil-leader
 		      iedit
