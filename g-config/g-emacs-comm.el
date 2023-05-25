@@ -28,7 +28,7 @@
 (menu-bar-mode 0)
 (global-auto-revert-mode 1)
 
-;; (setq initial-frame-alist (quote ((fullscreen . maximized))))
+(setq initial-frame-alist (quote ((fullscreen . maximized))))
 (add-hook 'prog-mode-hook #'hs-minor-mode)
 (scroll-bar-mode 0)
 (global-hl-line-mode 1)
