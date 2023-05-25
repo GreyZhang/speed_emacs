@@ -55,11 +55,27 @@ C-o -> jump backword.
 - jJ -> evil-avy-goto-char-2
 - pg -> jump to tag defination.
 - ca -> search files with ag.
-- oit -> insert org-mode structure template
-- oas -> org-archive-subtree
 - ss -> swiper ;; same as sapcemacs
 - xdw -> delete-trailing-whitespace
 - cl -> toggle function for comment-line
+**** for windows navigation
+- 1 'winum-select-window-1
+- 2 'winum-select-window-2
+- 3 'winum-select-window-3
+- 4 'winum-select-window-4
+- 5 'winum-select-window-5
+- 6 'winum-select-window-6
+- 7 'winum-select-window-7
+- 8 'winum-select-window-8
+- 9 'winum-select-window-9
+**** for org-mode
+- oit -> insert org-mode structure template
+- oas -> org-archive-subtree
+- ods 'org-download-screenshot
+- orf 'org-roam-node-file
+- ori 'org-roam-node-insert
+- oru 'org-roam-ui-mode
+
 *** AutoPairs
 Use electric-pair-mode which already supported by emacs 24.4+.
 
