@@ -15,8 +15,6 @@
 (defvar my/packages '(
 		      use-package
 		      quelpa
-		      evil
-		      evil-leader
 		      iedit
 		      which-key
 		      company
@@ -68,6 +66,9 @@
  '(org-pomodoro-short-break-length 3)
  '(package-selected-packages
    '(org-present company-irony-c-headers find-file-in-project evil evil-leader iedit autopair which-key company))
+ '(recentf-auto-cleanup 'never)
+ '(recentf-max-menu-items 100)
+ '(recentf-max-saved-items 200)
  '(show-paren-mode t)
  '(show-trailing-whitespace t)
  '(tool-bar-mode nil))
