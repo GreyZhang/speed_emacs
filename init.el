@@ -58,6 +58,9 @@
    [default default default italic underline success warning error])
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
+ '(custom-enabled-themes '(sanityinc-tomorrow-bright))
+ '(custom-safe-themes
+   '("1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" default))
  '(menu-bar-mode nil)
  '(org-archive-location "%s_2023_05_archive::")
  '(org-download-backend "wget \"%s\" -O \"%s\"")
