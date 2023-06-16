@@ -204,5 +204,19 @@ Version 2019-11-05"
    (cond
     ((member "WenQuanYi Micro Hei" (font-family-list)) "WenQuanYi Micro Hei")))))
 
+(use-package zenburn-theme
+  :ensure t
+  :config
+  ;; (load-theme 'zenburn t)
+  )
+
+(use-package color-theme-sanityinc-tomorrow
+  :ensure t
+  :config
+  (require 'color-theme-sanityinc-tomorrow)
+  (color-theme-sanityinc-tomorrow--define-theme bright)
+  (color-theme-sanityinc-tomorrow-bright)
+  )
+
 ;;
 (provide 'g-emacs-comm)
