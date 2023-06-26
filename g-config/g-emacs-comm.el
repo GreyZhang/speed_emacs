@@ -213,9 +213,9 @@ Version 2019-11-05"
 (use-package color-theme-sanityinc-tomorrow
   :ensure t
   :config
-  (require 'color-theme-sanityinc-tomorrow)
-  (color-theme-sanityinc-tomorrow--define-theme bright)
-  (color-theme-sanityinc-tomorrow-bright)
+  ;; (require 'color-theme-sanityinc-tomorrow)
+  ;; (color-theme-sanityinc-tomorrow--define-theme bright)
+  ;; (color-theme-sanityinc-tomorrow-bright)
   )
 
 ;;

@@ -4,8 +4,8 @@
 ;; (require 'quelpa)
 ;; g-evil-leader mustbe called before evil so leader-key can work
 ;; in initial buffers (*scratch*, *Messages*, …).
-(require 'g-evil-leader)
 (require 'g-evil)
+(require 'g-evil-leader)
 (require 'g-ivy)
 (require 'g-which-key)
 (require 'g-company)

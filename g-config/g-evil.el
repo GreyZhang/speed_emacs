@@ -7,4 +7,7 @@
   (modify-syntax-entry ?_ "w")
   (add-hook 'c-mode-common-hook #'(lambda () (modify-syntax-entry ?_ "w"))))
 
+(use-package evil-nerd-commenter
+  :ensure t)
+
 (provide 'g-evil)

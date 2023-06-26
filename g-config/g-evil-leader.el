@@ -17,7 +17,7 @@
     "sca" 'counsel-ag
     "ss" 'swiper
     "xdw" 'delete-trailing-whitespace
-    "cl" 'comment-line
+    "cl" 'evilnc-comment-or-uncomment-lines
     "1" 'winum-select-window-1
     "2" 'winum-select-window-2
     "3" 'winum-select-window-3
