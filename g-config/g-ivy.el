@@ -6,6 +6,9 @@
   :ensure t
   :config (ivy-mode 1))
 
+(define-key ivy-minibuffer-map (kbd "C-j") 'ivy-next-line)
+(define-key ivy-minibuffer-map (kbd "C-k") 'ivy-previous-line)
+
 (use-package counsel-etags
   :ensure t)
 
