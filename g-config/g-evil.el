@@ -9,5 +9,6 @@
 
 (use-package evil-nerd-commenter
   :ensure t)
+(with-eval-after-load 'evil-maps (define-key evil-motion-state-map (kbd "TAB") nil))
 
 (provide 'g-evil)

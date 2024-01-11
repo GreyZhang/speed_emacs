@@ -23,7 +23,8 @@
 (setq inhibit-startup-screen t)
 (fset 'yes-or-no-p'y-or-n-p)
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
-(global-linum-mode t)
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
 
 (menu-bar-mode 0)
 (global-auto-revert-mode 1)
